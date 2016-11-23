@@ -1,4 +1,4 @@
-<code> testing
+
 import java.security.SecureRandom;
 
 public class gameboard
@@ -83,4 +83,4 @@ public class gameboard
 	public placeShips()
 	{
 	}
-}</code>
+}
