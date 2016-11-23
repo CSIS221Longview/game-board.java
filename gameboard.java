@@ -92,7 +92,7 @@ public class gameboard
 	//get Advanced board
 	public String[][] getAdvancedBoard()
 	{
-		return advanced
+		return advanced;
 	}
 
 	//select difficulty level (beginner, standard, or advanced)
