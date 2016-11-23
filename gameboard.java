@@ -37,41 +37,62 @@ public class gameboard
 	//create Beginner board
 	public static void setBeginnerBoard()
 	{
- 	 for (int r = 0; r < board1.length; r++)
+ 	 for (int r = 0; r < beginner.length; r++)
 		{
-			for (int c = 0; c < board1[0].length; c++)
+			for (int c = 0; c < beginner[0].length; c++)
 			{	
-				board1[r][c] = "~ ";
-				System.out.print(board1[r][c]);
+				beginner[r][c] = "~ ";
+				System.out.print(beginner[r][c]);
 			}
 			System.out.println();
 		}
 	}
 	
 	//get Beginner board 
-	public getBeginnerBoard()
+	public String[][] getBeginnerBoard()
 	{
+		return beginner;
 	}
 	
 	//create Standard board
 	public static void setStandardBoard()
 	{
+		for (int r = 0; r < standard.length; r++)
+		{
+			for (int c = 0; c < standard[0].length; c++)
+			{	
+				standard[r][c] = "~ ";
+				System.out.print(standard[r][c]);
+			}
+			System.out.println();
+		}
 	}
 	
 	
 	//get Standard board
-	public getStandardBoard()
+	public String[][] getStandardBoard()
 	{
+		return standard;
 	}
 	
 	//create Advanced board
 	public static void setAdvancedBoard()
 	{
+		for (int r = 0; r < advanced.length; r++)
+		{
+			for (int c = 0; c < advanced[0].length; c++)
+			{	
+				advanced[r][c] = "~ ";
+				System.out.print(advanced[r][c]);
+			}
+			System.out.println();
+		}
 	}
 	
 	//get Advanced board
-	public getAdvancedBoard()
+	public String[][] getAdvancedBoard()
 	{
+		return advanced
 	}
 
 	//select difficulty level (beginner, standard, or advanced)
