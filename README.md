@@ -17,13 +17,10 @@ public class gameboard
 	private static final int[] SHIPS = {AIRCRAFT_CARRIER, BATTLESHIP, DESTROYER, SUBMARINE, PATROL};
 	
 	//variables
-	private final String[][] beginner = new String[6][6]; //6x6 (beginner)
-	private final String[][] standard = new String[9][9]; //9x9 (standard)
-	private final String[][] advanced = new String[12][12]; //12x12 (advanced)
-  private int missiles1 = 30;
-  private int missiles2 = 50;
-  private int missiles3 = 75;
-	private final static SecureRandom rand = new SecureRandom();
+	private static String[][] beginner = new String[6][6]; //6x6 (beginner)
+	private static String[][] standard = new String[9][9]; //9x9 (standard)
+	private static String[][] advanced = new String[12][12]; //12x12 (advanced)
+	private static SecureRandom rand = new SecureRandom();
 	
 	//constructor
 	public gameboard(int[] SHIPS, String[][] beginner, String[][] standard, String[][] advanced)
@@ -45,7 +42,7 @@ public class gameboard
 	//create Beginner board
 	public static void setBeginnerBoard()
 	{
-  for (int r = 0; r < board1.length; r++)
+ 	 for (int r = 0; r < board1.length; r++)
 		{
 			for (int c = 0; c < board1[0].length; c++)
 			{	
