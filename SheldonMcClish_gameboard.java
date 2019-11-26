@@ -297,7 +297,9 @@ public class SheldonMcClish_gameboard
 		} // end nested for-loop
 	} // end addShips
 		
-	// Cheat board (cheat sheet)
+	
+	/**	Uncomment this section of code out to cheat on the game		  
+				  // Cheat board (cheat sheet)
 	public void cheatSheet()
 	{
 		scoreBoard();
@@ -345,6 +347,7 @@ public class SheldonMcClish_gameboard
      			System.out.println();
         }
 	} // end cheatSheet()
+	*/ 
 	
 } // end class gameboard.java
 
